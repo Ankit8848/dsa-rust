@@ -1,3 +1,18 @@
+/*
+output-
+*
+**
+***
+****
+*****
+*/
 fn main() {
-    println!("Hello, world!");
+    let star = 5;
+
+    for i in 0..=star {
+        for _ in 0..i{
+            print!("*");
+        }
+        println!();
+    }
 }
